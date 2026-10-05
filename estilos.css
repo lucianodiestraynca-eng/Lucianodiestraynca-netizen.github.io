@@ -1,0 +1,366 @@
+/* estilos.css
+   Conectate Seguro - pagina de Luciano Diestra
+   Liceo Comercial de Los Andes
+
+   Colores que se repiten:
+     #3A2352  ciruela oscuro  (encabezado y pie)
+     #6B3FA0  morado          (color principal)
+     #9D6FD0  morado claro
+     #C4AEE4  lila
+     #F2EDF8  lavanda         (fondos suaves)
+     #F7F5FA  fondo de la pagina
+     #DDD3EA  bordes
+     #241B2E  texto
+     #6B6076  texto secundario
+*/
+
+/* El asterisco alcanza a todas las etiquetas.
+   border-box deja el padding dentro del ancho declarado. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Candara, Arial, sans-serif;
+  background-color: #F7F5FA;
+  color: #241B2E;
+  font-size: 16px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ===== encabezado ===== */
+
+#tapa {
+  background-color: #3A2352;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 46px 20px 32px 20px;
+}
+
+#tapa h1 {
+  margin: 0;
+  font-size: 40px;
+}
+
+.linea-sitio {
+  margin: 10px auto 0 auto;
+  max-width: 420px;
+  border-top: 2px solid #9D6FD0;
+  padding-top: 10px;
+  color: #C4AEE4;
+  font-size: 17px;
+}
+
+.curso-liceo {
+  margin: 16px 0 0 0;
+  color: #9D83B8;
+  font-size: 13px;
+}
+
+
+/* ===== menu =====
+   Los enlaces van como pastillas de color lavanda que se
+   oscurecen al pasar el mouse. */
+
+#senda {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #DDD3EA;
+  text-align: center;
+  padding: 14px 12px;
+}
+
+#senda ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* inline-block los deja en fila y los baja solos si no caben */
+#senda li {
+  display: inline-block;
+  margin: 3px 2px;
+}
+
+#senda a {
+  display: inline-block;
+  background-color: #F2EDF8;
+  color: #6B3FA0;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 8px 17px;
+  border-radius: 18px;
+}
+
+#senda a:hover {
+  background-color: #6B3FA0;
+  color: #FFFFFF;
+}
+
+
+/* ===== cuerpo ===== */
+
+/* margin: 0 auto centra la columna de contenido */
+main {
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 28px 20px 48px 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+/* las secciones con esta clase van sobre fondo lavanda */
+.panel {
+  background-color: #F2EDF8;
+  border-radius: 14px;
+  padding: 6px 28px 22px 28px;
+}
+
+/* titulos en mayusculas con un borde punteado abajo */
+h2 {
+  color: #3A2352;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 2px dashed #9D6FD0;
+  padding-bottom: 10px;
+  margin-top: 28px;
+  margin-bottom: 16px;
+}
+
+h3 {
+  color: #6B3FA0;
+  font-size: 18px;
+  margin-top: 22px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: #6B3FA0;
+}
+
+a:hover {
+  color: #3A2352;
+}
+
+abbr {
+  border-bottom: 2px dotted #9D6FD0;
+  cursor: help;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #DDD3EA;
+  margin: 26px 0;
+}
+
+
+/* ===== imagenes ===== */
+
+.foto,
+.foto-media {
+  margin: 24px 0 0 0;
+  text-align: center;
+}
+
+/* max-width 100% evita que la imagen se salga en pantallas chicas */
+.foto img {
+  width: 600px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+.foto-media img {
+  width: 420px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 14px;
+  border: 1px solid #DDD3EA;
+}
+
+figcaption {
+  color: #6B6076;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+
+/* ===== las situaciones del dia ===== */
+
+.escena {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 6px 20px 16px 20px;
+  margin-bottom: 14px;
+}
+
+.escena h3 {
+  margin-top: 14px;
+}
+
+.escena p {
+  margin: 0 0 10px 0;
+}
+
+/* la frase final de cada situacion, con el consejo */
+.moraleja {
+  border-left: 5px solid #9D6FD0;
+  color: #4A3168;
+  font-size: 14px;
+  font-weight: bold;
+  padding-left: 12px;
+}
+
+
+/* ===== listas ===== */
+
+.costumbres {
+  padding-left: 22px;
+}
+
+.costumbres li {
+  margin-bottom: 9px;
+}
+
+.pasos-breves {
+  background-color: #F2EDF8;
+  border-radius: 10px;
+  padding: 16px 18px 16px 44px;
+  margin-top: 16px;
+}
+
+.pasos-breves li {
+  margin-bottom: 8px;
+}
+
+
+/* ===== tabla ===== */
+
+/* border-collapse junta los bordes de las celdas en una sola linea */
+.tabla-permisos {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #FFFFFF;
+  margin-top: 16px;
+  font-size: 15px;
+}
+
+.tabla-permisos caption {
+  caption-side: bottom;
+  text-align: left;
+  color: #6B6076;
+  font-size: 13px;
+  padding-top: 8px;
+}
+
+.tabla-permisos th {
+  background-color: #3A2352;
+  color: #FFFFFF;
+  text-align: left;
+  padding: 11px 13px;
+}
+
+.tabla-permisos td {
+  border: 1px solid #DDD3EA;
+  padding: 11px 13px;
+  vertical-align: top;
+}
+
+/* la columna del veredicto va angosta */
+.logico,
+.sospechoso,
+.innecesario {
+  width: 22%;
+  font-weight: bold;
+}
+
+.logico {
+  color: #2F7A4F;
+}
+
+.sospechoso {
+  color: #8E1F3A;
+}
+
+.innecesario {
+  color: #9A6B12;
+}
+
+
+/* ===== recuadro de advertencia ===== */
+
+.recuadro {
+  background-color: #FFFFFF;
+  border: 3px solid #6B3FA0;
+  border-radius: 14px;
+  padding: 6px 28px 20px 28px;
+  margin-bottom: 30px;
+}
+
+.recuadro h2 {
+  color: #6B3FA0;
+  border-bottom-color: #DDD3EA;
+}
+
+.recuadro p {
+  margin: 0 0 10px 0;
+}
+
+
+/* ===== enlace externo ===== */
+
+.vinculo {
+  display: inline-block;
+  background-color: #6B3FA0;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 13px 26px;
+  border-radius: 10px;
+}
+
+.vinculo:hover {
+  background-color: #3A2352;
+  color: #FFFFFF;
+}
+
+.subir-tope {
+  text-align: right;
+  font-size: 13px;
+}
+
+
+/* ===== pie ===== */
+
+#remate {
+  background-color: #3A2352;
+  color: #C4AEE4;
+  text-align: center;
+  font-size: 14px;
+  padding: 26px 20px 22px 20px;
+}
+
+.marca-pie {
+  color: #FFFFFF;
+  font-size: 19px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0 0 8px 0;
+}
+
+/* address viene en cursiva por defecto */
+#remate address {
+  font-style: normal;
+  margin-bottom: 8px;
+}
+
+#remate p {
+  margin: 0;
+}

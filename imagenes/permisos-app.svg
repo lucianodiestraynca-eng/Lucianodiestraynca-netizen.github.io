@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 280" width="420" height="280" role="img" aria-label="Una aplicacion conectada a tres permisos: camara, microfono y ubicacion">
+  <rect width="420" height="280" rx="14" fill="#F2EDF8"/>
+
+  <g stroke="#C4AEE4" stroke-width="4" fill="none">
+    <path d="M210 140 H120 V72"/>
+    <path d="M210 140 H120 V208"/>
+    <path d="M210 140 H318"/>
+  </g>
+
+  <rect x="214" y="98" width="86" height="86" rx="20" fill="#6B3FA0"/>
+  <rect x="236" y="126" width="42" height="10" rx="5" fill="#F2EDF8"/>
+  <rect x="236" y="146" width="28" height="10" rx="5" fill="#F2EDF8"/>
+
+  <circle cx="120" cy="60" r="28" fill="#FFFFFF" stroke="#DDD3EA" stroke-width="3"/>
+  <rect x="104" y="50" width="26" height="20" rx="5" fill="#3A2352"/>
+  <path d="M130 56 l10 -6 v20 l-10 -6z" fill="#3A2352"/>
+
+  <circle cx="120" cy="220" r="28" fill="#FFFFFF" stroke="#DDD3EA" stroke-width="3"/>
+  <rect x="113" y="204" width="14" height="22" rx="7" fill="#3A2352"/>
+  <path d="M106 222 a14 14 0 0 0 28 0" fill="none" stroke="#3A2352" stroke-width="5" stroke-linecap="round"/>
+  <path d="M120 236 v6" stroke="#3A2352" stroke-width="5" stroke-linecap="round"/>
+
+  <circle cx="346" cy="140" r="28" fill="#FFFFFF" stroke="#DDD3EA" stroke-width="3"/>
+  <path d="M346 124 a12 12 0 0 1 12 12 c0 9-12 22-12 22 s-12-13-12-22 a12 12 0 0 1 12-12z" fill="#3A2352"/>
+
+  <circle cx="142" cy="40" r="13" fill="#2F7A4F"/>
+  <path d="M136 40 l4 4 8-9" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="142" cy="200" r="13" fill="#2F7A4F"/>
+  <path d="M136 200 l4 4 8-9" fill="none" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="368" cy="120" r="13" fill="#8E1F3A"/>
+  <path d="M363 115 l10 10 M373 115 l-10 10" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

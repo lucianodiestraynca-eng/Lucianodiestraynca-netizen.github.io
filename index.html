@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio sobre uso responsable de Internet para estudiantes del Liceo Comercial de Los Andes.">
+  <meta name="author" content="Luciano Diestra">
+  <title>Conéctate Seguro</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<!-- >> Encabezado del sitio -->
+<header id="tapa">
+  <h1>Conéctate Seguro</h1>
+  <p class="linea-sitio">Lo que conviene saber antes de que pase algo</p>
+  <p class="curso-liceo">Liceo Comercial de Los Andes</p>
+</header>
+
+<!-- >> Menu: lista de enlaces a las secciones de esta pagina -->
+<nav id="senda">
+  <ul>
+    <li><a href="#partida">Inicio</a></li>
+    <li><a href="#dia">Un día normal</a></li>
+    <li><a href="#llaves">Contraseñas</a></li>
+    <li><a href="#permisos">Permisos</a></li>
+    <li><a href="#habitos">Hábitos</a></li>
+    <li><a href="#fuentes">Ayuda</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <!-- >> Proposito del sitio -->
+  <section id="partida">
+    <h2>De qué va esto</h2>
+
+    <p>
+      Uno escucha hablar de seguridad digital y se imagina a alguien encapuchado
+      escribiendo código verde. En la práctica es mucho más aburrido: casi todo
+      parte por una red abierta, un permiso que se aceptó sin leer o una sesión
+      que quedó abierta en el computador de la sala.
+    </p>
+
+    <p>
+      Este sitio recorre esas situaciones corrientes, las que pasan en un día
+      cualquiera de liceo, y explica qué hacer en cada una. Nada de programas
+      especiales ni de saber de computación: son <strong>decisiones de diez
+      segundos</strong> que evitan problemas de meses.
+    </p>
+
+    <figure class="foto">
+      <img src="imagenes/wifi-abierto.svg"
+           alt="Ondas de wifi junto a un candado abierto, que representan una red sin protección"
+           width="600" height="300">
+      <figcaption>Una red abierta es una sala donde cualquiera escucha.</figcaption>
+    </figure>
+  </section>
+
+  <!-- >> Consejos de seguridad digital, uno por situacion -->
+  <section id="dia" class="panel">
+    <h2>Lo que pasa en un día normal</h2>
+
+    <article class="escena">
+      <h3>Te conectas al wifi del liceo</h3>
+      <p>
+        En una red compartida el tráfico viaja por el mismo cable que el de todos.
+        Para buscar cosas, ver videos o leer, no hay drama. El problema aparece
+        cuando escribes una contraseña o entras a algo con plata de por medio.
+      </p>
+      <p class="moraleja">Navega tranquilo, pero deja el banco y las compras para tu casa o los datos móviles.</p>
+    </article>
+
+    <article class="escena">
+      <h3>Un amigo te manda un link raro</h3>
+      <p>
+        Cuando le roban la cuenta a alguien, lo primero que hacen es mandarle el
+        mismo engaño a toda su lista de contactos. Que venga de un número conocido
+        no significa nada: significa justamente que a esa persona ya le pasó.
+      </p>
+      <p class="moraleja">Antes de abrirlo, pregúntale por otro lado si de verdad lo mandó.</p>
+    </article>
+
+    <article class="escena">
+      <h3>Instalas una app y te pide permisos</h3>
+      <p>
+        Esa pantalla que uno acepta sin mirar es la que decide si la aplicación
+        puede ver tus contactos, prender el micrófono o saber dónde estás. Se
+        acepta una vez y queda así para siempre.
+      </p>
+      <p class="moraleja">Léela una vez: si el permiso no tiene nada que ver con lo que hace la app, no lo des.</p>
+    </article>
+
+    <article class="escena">
+      <h3>Ocupas el computador de la sala</h3>
+      <p>
+        Dejar la sesión abierta en un equipo compartido es dejar la puerta sin
+        llave. El siguiente que se siente entra a tu correo, a tus redes y a tus
+        trabajos sin tener que adivinar nada.
+      </p>
+      <p class="moraleja">Cierra sesión antes de pararte, aunque sea por dos minutos.</p>
+    </article>
+  </section>
+
+  <!-- >> Contraseñas -->
+  <section id="llaves">
+    <h2>Las contraseñas, rápido</h2>
+
+    <p>
+      El largo importa más que los símbolos. Una frase de cuatro palabras que solo
+      tú entiendas aguanta muchísimo más que ocho caracteres con un signo al final,
+      porque los ataques automáticos prueban primero lo corto y lo conocido.
+    </p>
+
+    <p>
+      Y conviene no repetirlas: si una se filtra, el mismo par de correo y clave se
+      prueba en todas las demás plataformas. Eso es lo que hace que un problema
+      chico se convierta en uno grande.
+    </p>
+
+    <ol class="pasos-breves">
+      <li>Arma una frase larga, con palabras que no se relacionen entre sí.</li>
+      <li>Ponle una contraseña única al correo: desde ahí se recupera todo lo demás.</li>
+      <li>Activa la verificación en dos pasos donde la ofrezcan.</li>
+    </ol>
+  </section>
+
+  <!-- >> Tabla sencilla -->
+  <section id="permisos" class="panel">
+    <h2>Permisos de una app: ¿tiene sentido?</h2>
+
+    <p>
+      La regla es simple: el permiso tiene que servirle a la app para hacer lo que
+      promete. Si no calza, algo más está buscando.
+    </p>
+
+    <table class="tabla-permisos">
+      <caption>Ejemplos de permisos que piden las aplicaciones</caption>
+
+      <thead>
+        <tr>
+          <th>La aplicación</th>
+          <th>Le pide</th>
+          <th>¿Calza?</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Mapas</td>
+          <td>Tu ubicación</td>
+          <td class="logico">Calza</td>
+        </tr>
+        <tr>
+          <td>Cámara</td>
+          <td>Cámara y galería de fotos</td>
+          <td class="logico">Calza</td>
+        </tr>
+        <tr>
+          <td>Linterna</td>
+          <td>Tu lista de contactos</td>
+          <td class="sospechoso">Sospechoso</td>
+        </tr>
+        <tr>
+          <td>Editor de fotos</td>
+          <td>Registro de llamadas</td>
+          <td class="sospechoso">Sospechoso</td>
+        </tr>
+        <tr>
+          <td>Juego sin conexión</td>
+          <td>Micrófono siempre activo</td>
+          <td class="innecesario">No lo necesita</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <figure class="foto-media">
+      <img src="imagenes/permisos-app.svg"
+           alt="Una aplicación conectada a tres permisos: cámara, micrófono y ubicación"
+           width="420" height="280">
+      <figcaption>Dos permisos tienen sentido; el tercero sobra.</figcaption>
+    </figure>
+  </section>
+
+  <!-- >> Lista de buenas practicas -->
+  <section id="habitos">
+    <h2>Costumbres que valen la pena</h2>
+
+    <p>Ninguna cuesta tiempo una vez que te acostumbras:</p>
+
+    <ul class="costumbres">
+      <li>Cierra sesión en cualquier equipo que no sea tuyo.</li>
+      <li>Revisa los permisos de las apps que ya tienes instaladas y quita los que sobren.</li>
+      <li>Baja aplicaciones solo desde Google Play o la App Store.</li>
+      <li>Mantén el teléfono y las apps al día con sus actualizaciones.</li>
+      <li>Deja el celular con bloqueo puesto, sea huella, patrón o clave numérica.</li>
+      <li>Revisa cada tanto quién te sigue en tus redes.</li>
+      <li>Desconfía de los links que llegan con apuro, vengan de quien vengan.</li>
+      <li>Habla con un adulto de confianza si algo en línea te deja incómodo.</li>
+    </ul>
+
+    <figure class="foto-media">
+      <img src="imagenes/pantalla-compartida.svg"
+           alt="Un computador compartido con una sesión abierta y una flecha de salida"
+           width="420" height="280">
+      <figcaption>Cerrar sesión toma dos segundos y ahorra explicaciones.</figcaption>
+    </figure>
+  </section>
+
+  <!-- >> Recuadro de advertencia -->
+  <aside class="recuadro">
+    <h2>Que no se te olvide</h2>
+    <p>
+      Hay un solo dato que no se entrega jamás: el código que llega a tu teléfono
+      para confirmar que eres tú. Ese código existe precisamente para que nadie
+      más pueda entrar, así que nadie legítimo te lo va a pedir.
+    </p>
+    <p>
+      <strong>Si alguien te lo pide, da lo mismo quién parezca ser:</strong>
+      estás frente a un intento de robo de cuenta. Corta ahí y cuéntalo.
+    </p>
+  </aside>
+
+  <!-- >> Enlace a una fuente externa -->
+  <section id="fuentes">
+    <h2>Si necesitas ayuda</h2>
+
+    <p>
+      El <abbr title="Ministerio de Educación">Mineduc</abbr> tiene el sitio
+      Convivencia para la Ciudadanía, con material sobre ciberacoso y ciudadanía
+      digital pensado para colegios y liceos:
+    </p>
+
+    <p>
+      <a class="vinculo" href="https://convivenciaparaciudadania.mineduc.cl/" target="_blank" rel="noopener">
+        Ir a Convivencia para la Ciudadanía
+      </a>
+    </p>
+
+    <p>
+      Acá en el liceo, la encargada de convivencia escolar atiende estos casos:
+      <a href="mailto:convivencia@liceocomerciallosandes.cl">convivencia@liceocomerciallosandes.cl</a>
+    </p>
+
+    <hr>
+
+    <p class="subir-tope"><a href="#tapa">Volver al comienzo</a></p>
+  </section>
+
+</main>
+
+<!-- >> Pie de pagina -->
+<footer id="remate">
+  <p class="marca-pie">Conéctate Seguro</p>
+  <address>
+    Liceo Comercial de Los Andes &middot; Los Andes, Chile
+  </address>
+  <p>&copy; 2026 &mdash; trabajo de clase de Luciano Diestra</p>
+</footer>
+
+</body>
+</html>
